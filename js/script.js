@@ -18,7 +18,7 @@ const user_color = prompt('Inserisci il tuo colore preferito');
 console.log(user_color);
 
 // Salva la password dell'utente e loggala in console
-const user_pass =  `${user_name + user_surname + user_color + 23}`;
+const user_pass =  `${user_name + user_surname + user_color} + 23`;
 console.log(user_pass);
 
 // Scrivi sulla pagina la password dell'utente
